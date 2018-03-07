@@ -11,25 +11,28 @@ namespace BinarySearchTree
         //member variables
         public int data;
         public Node Right;
-        public Node Left;
+        public Node Left;       
         //constructor
 
         public Node()
         {
-            Node countNode = new countNode(data);
+             countNode = new Node();
         }
         //member methods
-        public void addData(Node);
+        public void (Node);
         {
-        if  (node == null)
-            node = nodenewAdd;
+        if (node == null)
+            node = new Node(Data);
+      
         }
         else 
         {
+          addData node.Right
         }    
-
-
-
-
-    }
+        else
+        {
+         int data;
+        //addData node.Left
+        }
 }
+
